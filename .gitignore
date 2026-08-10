@@ -1,0 +1,13 @@
+.vscode/
+.vscode-server/
+# Ignore all files in the .vscode-server directory except the 'keep' file
+.vscode-server/*
+!.vscode-server/keep
+# Ignores all subfolders except some files
+workspace/daemons/
+workspace/apps/
+build/
+imgui/
+
+
+imgui.ini
